@@ -18,7 +18,9 @@ class LogIn extends Component {
         {isLogIn ? (
           <div>
             <Message isLogIn={isLogIn} />
-            <LogOut isLogIn={isLogIn} />
+             <button type="button" className="button" onClick={this.onLogIn}>
+              Logout
+            </button>
           </div>
         ) : (
           <div>
